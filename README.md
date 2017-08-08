@@ -1,6 +1,6 @@
 # Git Prepend Msg
 
-Installs a prepapre commit message hook.
+Installs a prepare commit message hook.
 
 ## Details
 
