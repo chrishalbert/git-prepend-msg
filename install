@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "Installing..."
+echo "  Adding templatedir git config..."
+git config --global init.templatedir ~/.git-templates
+echo "  Making directory..."
+mkdir -p ~/.git-templates/hooks
+echo "  Copying hook to directory..."
+cp prepare-commit-msg  ~/.git-templates/hooks/
+echo "  Making hook executable..."
+chmod a+x ~/.git-templates/hooks/prepare-commit-msg
+
+echo -e "\n\nFor existing repositories, type `git init` to reinitialize your repository with pre commit hook."
