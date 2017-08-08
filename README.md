@@ -4,10 +4,10 @@ Installs a prepare commit message hook.
 
 ## Details
 
-After you name your branch `ABC-123`, any time you commit, you will have that message prepended to the commit message.
+After you name your branch `ABC-123`, any time you commit, you will have that branch prepended to the commit message.
 
 ```bash
-git commit -m 'Comitting code.'
+$ git commit -m 'Comitting code.'
 [ABC-123 186b582] [ABC-123] Committing code.
 ```
 
