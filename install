@@ -10,4 +10,4 @@ cp prepare-commit-msg  ~/.git-templates/hooks/
 echo "  Making hook executable..."
 chmod a+x ~/.git-templates/hooks/prepare-commit-msg
 
-echo -e "\n\nFor existing repositories, type `git init` to reinitialize your repository with pre commit hook."
+echo -e "\nIn the root of your repository, type `git init` to reinitialize with the prepare commit msg hook."
