@@ -21,5 +21,5 @@ $ git commit -m 'Comitting code.'
 ### Scripted
 On the command line, you can copy paste. This will download the code, unzip the file in your temp directory, run the install, and then remove remnants.
 ```bash
-curl -LOk https://github.com/chrishalbert/git-prepend-msg/archive/master.zip && mv master.zip /tmp/git-prepend-msg-master.zip && unzip /tmp/git-prepend-msg-master.zip && cd /tmp/git-prepend-msg-master && ./install && rm -Rf /tmp/git-prepend-msg-master*
+curl -LOk https://github.com/chrishalbert/git-prepend-msg/archive/master.zip && mv master.zip /tmp/git-prepend-msg-master.zip && cd /tmp && unzip /tmp/git-prepend-msg-master.zip && cd /tmp/git-prepend-msg-master && ./install && rm -Rf /tmp/git-prepend-msg-master* && cd
 ```
